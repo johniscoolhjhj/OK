@@ -1,8 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
+--made by j.kkkk nigga dont delet this shit
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -18,8 +14,6 @@ local UICorner_3 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local Domain = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
-
---Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -119,7 +113,6 @@ Button.TextSize = 14.000
 Button.TextWrapped = true
 local ScrTxt = script.Parent.Parent.TextBox
 local Button = script.Parent
-
 Button.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
 end)
@@ -154,8 +147,7 @@ Domain.TextColor3 = Color3.fromRGB(0, 0, 0)
 Domain.TextScaled = true
 Domain.TextSize = 14.000
 Domain.TextWrapped = truelocal ScrTxt = script.Parent.Parent.TextBox
-local Button = script.Parent
-
+local Domain = script.Parent
 Domain.MouseButton1Click:Connect(function()
 	print(ScrTxt.Text)
 end)
